@@ -17,7 +17,7 @@ public class Application {
 				System.out.println("Counter value read by "
 						+ Thread.currentThread().getName() + // (8) Print thread name.
 						": " + val);
-				Thread.sleep(1000); // (9) Current thread sleeps.
+				Thread.sleep(500); // (9) Current thread sleeps.
 			} while (val < 5);
 		}
 		catch (InterruptedException e) {
