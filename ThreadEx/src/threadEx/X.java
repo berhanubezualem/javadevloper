@@ -18,7 +18,7 @@ public class X implements Runnable {
 			while (this.currentValue < 5) {
 				System.out.println(Thread.currentThread().getName() // (2) Print thread name.
 						+ ": " + (this.currentValue++));
-				Thread.sleep(600); // (3) Current thread sleeps.
+				Thread.sleep(500); // (3) Current thread sleeps.
 			}
 		}
 		catch (InterruptedException e) {
