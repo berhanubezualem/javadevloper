@@ -15,7 +15,7 @@ public class Client {
 						+ Thread.currentThread().getName() + // (8) Print thread name.
 						": " + val);
 				val++;
-				Thread.sleep(500);
+				Thread.sleep(600);
 			} while (val < 5);
 
 		}
